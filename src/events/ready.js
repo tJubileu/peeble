@@ -25,19 +25,7 @@ exports.run = (client) => {
         }
         
     })
-    let allUsers = client.users.array()
-    let allGuilds = client.guilds.array()
-    function checkActive() {
-        allUsers.forEach(user => {
-            if (user.lastMessage != null) {
-                let time = ms(Date.now() - user.lastMessage.createdAt)
-                if (time.minutes > 20) {
-                    db.set(`${user.id}.active`, false)
-                } else db.set(`${user.id}.active`, true)
-            }
-        })
-    }
-    setInterval(checkActive, 15000)
+    
     setInterval(function () {
         client.user.setPresence({
             status: "online",

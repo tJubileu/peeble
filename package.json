@@ -1,0 +1,28 @@
+{
+  "name": "lixeira-robotica",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord-giveaways": "^2.4.4",
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.2.0",
+    "firebase": "^7.6.1",
+    "firebase-admin": "^8.9.0",
+    "fs": "0.0.1-security",
+    "jQuery": "^1.7.4",
+    "jimp": "^0.9.3",
+    "jquery": "^3.4.1",
+    "moment": "^2.24.0",
+    "mongoose": "^5.8.3",
+    "ms": "^2.1.2",
+    "parse-ms": "^2.1.0",
+    "quick.db": "^7.0.0-b22",
+    "time-stamp": "^2.2.0"
+  }
+}

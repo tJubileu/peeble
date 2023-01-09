@@ -13,7 +13,7 @@
     "discord.js": "^11.5.1",
     "dotenv": "^8.2.0",
     "firebase": "^7.6.1",
-    "firebase-admin": "^8.9.0",
+    "firebase-admin": "^11.4.1",
     "fs": "0.0.1-security",
     "jQuery": "^1.7.4",
     "jimp": "^0.9.3",
